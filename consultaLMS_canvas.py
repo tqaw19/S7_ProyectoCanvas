@@ -18,8 +18,7 @@ class Curso:
             print("Nombre del curso:",course.name+'\n',
                   "Fecha de inicio:",course.start_at+'\n',
                   "Fecha fin:",course.end_at)
-
-            courses = user.get_courses()
-            print(courses)
+            user = canvas.get_user(29919)#codigo del alumno en CANVAS
+            print(user.name)           
 
 Curso.imprimir()
