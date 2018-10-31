@@ -4,7 +4,7 @@ from canvasapi import Canvas
 # Canvas API URL
 API_URL = "https://tecsup.instructure.com"
 # Canvas API key
-API_KEY = "POMlFGipLsYwltgTCinK5HSHwemI5848gipzwJhJCnb6x3qUgaxJOOVKRCupX5WE"
+API_KEY = "Copiar tu token generado desde Canvas LMS"
 
 # Initialize a new Canvas object
 canvas = Canvas(API_URL, API_KEY)
